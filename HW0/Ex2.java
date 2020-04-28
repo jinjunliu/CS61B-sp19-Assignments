@@ -1,9 +1,14 @@
-public class  Ex2 {
-   public static int max(int[] m) {
+public class Ex2 {
+   /**
+    * Returns the maximum value from m using a for loop.
+    * @param m 
+    * @return maximum value in array m.
+    */
+   public static int forMax(int[] m) {
        int maxNumber = m[0];
        int i = 1;
-       while(i<=m.length-1){
-			if(m[i]>maxNumber){
+       while (i<=m.length-1) {
+			if (m[i] > maxNumber) {
 				maxNumber = m[i];
 			}
 			i = i+1;
@@ -12,6 +17,6 @@ public class  Ex2 {
    }
    public static void main(String[] args) {
       int[] numbers = new int[]{9, 2, 15, 2, 22, 10, 6};
-      System.out.println(max(numbers));
+      System.out.println(forMax(numbers));
    }
 }

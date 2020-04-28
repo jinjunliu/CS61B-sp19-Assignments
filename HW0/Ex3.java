@@ -1,8 +1,8 @@
 public class Ex3 {
    public static int max(int[] m) {
        int maxNumber = m[0];
-       for(int i=1; i<=m.length-1; i+=1){
-			if(m[i]>maxNumber){
+       for (int i=1; i<=m.length-1; i+=1) {
+			if (m[i] > maxNumber) {
 				maxNumber = m[i];
 			}
       }
