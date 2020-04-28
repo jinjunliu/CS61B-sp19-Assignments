@@ -1,6 +1,5 @@
 public class Ex4 {
 	public static void windowPosSum(int[] a, int n) {
-    /** your code here */ 
 		for (int i = 0; i <= a.length - 1; i += 1){
 			if (a[i] < 0 || i == a.length - 1 ) {
 				continue;
